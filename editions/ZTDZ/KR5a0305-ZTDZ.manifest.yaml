@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0305/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0305/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 漢武帝外傳
+  date: '2015-08-28 23:44:37.180547'
+  source:
+    repository: kanripo
+    path: KR5a0305
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0305_000-ZTDZ.yaml, hash: 'sha256:4e38ad88c1148cd0365c21dc66cef23d1b6c4c7bb17a74fa71f30f1df2c14ff2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0305_000-ZTDZ.markers.yaml, hash: 'sha256:f49aae1bf1a2da9e88cd3544551e446bc014d66a6723808744d1be153fa4efbf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0305_SJB_000-050058a
+    span:
+    - body
+    - 0
+    - 6179
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c37986c3adf7bba3b22149cfe1160b956a0ed39d5e485cc7fb1b15dbf39290f3
